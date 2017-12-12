@@ -1,0 +1,60 @@
+@import "../../variables";
+header {
+   background:url("/assets/images/slide-1-fs.jpg") no-repeat center top / cover;
+   min-height: 700px;
+}
+.navbar-brand img {
+   width: 120px;
+}
+.nav a {
+    color:darkgray;
+    text-decoration: none;
+            
+    &:hover {
+    color:$white;
+    }
+}
+.navbar{
+    li {
+    font-size: 16px;
+    font-weight:$print;
+    }}
+.top-bar {
+    padding-top: 20px;
+}
+.jumbotron {
+     background-color: inherit;
+     text-align:$location;
+     padding-top: 120px;
+      
+     h1{
+     color:$white;
+     font-size: 65px;
+     font-family: Playfair Display;
+     }
+}
+
+.button2 {
+    border-radius: 34px;
+    padding: 11px;
+    padding-left: 25px;
+    padding-right: 25px;
+    //color:$white;
+    font-size: 14px;
+    cursor: pointer;
+	background-color: transparent;
+    border: 1px solid $white;
+
+    &:focus {
+    outline: none;
+    }
+     
+    &:hover {
+    background-color: #2D66F7;
+	border: 1px solid #2D66F7;
+    }
+}
+.jumb-button {
+    padding-top:$number;
+            
+}
